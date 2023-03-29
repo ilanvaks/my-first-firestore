@@ -1,0 +1,9 @@
+# We can ignore node modules because we dont neeed to  
+#track changes to other peoples's code
+# added type:modules in package json for es6
+
+node_modules 
+.vscode
+
+#We need to protect our private_key and private_key_id
+credentials.js 
